@@ -42,7 +42,7 @@ class ApplicationController < Sinatra::Base
   end
 
   get "/failure" do
-    erb :failure #This will be accessed if there is an error logging in or signing up.
+    erb :failure 
   end
 
   get "/logout" do
